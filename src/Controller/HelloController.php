@@ -7,7 +7,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class HelloController {
   // routing. Symfony preferred way is by using attributes
-    #[Route('/hello', name: 'hello')]
+    // #[Route('/hello', name: 'hello')]
   function hello() {
     return new Response('Hello World!');
   }
