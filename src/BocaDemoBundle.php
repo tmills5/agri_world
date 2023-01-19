@@ -1,7 +1,8 @@
+<?php
 namespace Boca\DemoBundle;
 
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
-BocaDemoBundle extends AbstractBundle {
+class BocaDemoBundle extends AbstractBundle {
 
 }
