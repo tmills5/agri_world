@@ -12,6 +12,5 @@ class LoggerController extends AbstractController {
     $logger->error('An error occurred');
     return new Response('<html><body>Logged!</body></html>');
   }
-  )
 
 }
